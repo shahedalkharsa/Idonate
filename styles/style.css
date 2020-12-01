@@ -1,0 +1,182 @@
+/* 
+
+	1. General
+	2. login-form-2
+	3. inline-login
+	4. create-account
+	5. forgot-password
+	6. contact-form-1
+	7. contact-form-2
+	8. payment-form
+	9. Media Queries
+	
+--------------------------------------------*/
+/* 1. General
+--------------------------------------------*/
+*, body { font-family: 'Open Sans', sans-serif; }
+body { margin-bottom: 30px; }
+h1 {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: normal;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: normal;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #09F;
+}
+
+.green { color: #3C3; }
+.gray { color: #999; }
+
+.form-horizontal .control-label { padding-top: 0; }
+.form-horizontal.payment-form .radio.no-padding-top {	padding-top: 0; }
+.control-wrapper {
+	position: relative;
+	padding-left: 30px;
+}
+.control-wrapper label.fa-label {
+	position: absolute;
+	left: 4px;
+	top: 6px;
+}
+.form-group:last-child { margin-bottom: 0; }
+.form-horizontal .control-label { margin-bottom: 10px; }
+.table { margin-bottom: 0; }
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, 
+.table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	vertical-align: middle;
+}
+.form-list-container { max-width: 600px; }
+.input-icon-container { position: relative; }
+.input-icon-container .fa {
+	color: gray;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.input-icon-container input, 
+.input-icon-container textarea {
+	padding-left: 30px;
+}
+.container {
+
+	border-radius: 8px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.bg-gray { background-color: #eee; }
+.bg-gray h1 { color: rgb(74, 164, 180); }
+.bg-image-1 {
+	background-color: rgb(60,60,60);
+	background-image: url(poor.jpg);	
+}
+.bg-image-2 {
+	background-color: rgb(70, 90, 40);
+	background-image: url(poor.jpg);
+}
+.bg-image-1, .bg-image-2 {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;	
+}
+.bg-image-1, .bg-image-2 { background-size: cover; }
+.font-size-small { font-size: 0.8em; }
+.margin-bottom-15 {	margin-bottom: 15px; }
+.margin-bottom-30 {	margin-bottom: 30px; }
+.form-group { margin-bottom: 20px; }
+.form-group a {	line-height: 34px; }
+.fa { font-size: 16px; }
+.fa.login-with {
+	font-size: 30px;
+	margin: 0 5px;
+}
+.fa-medium { font-size: 20px; }
+.inline-block { display: inline-block; }
+
+/*-------------------------------------
+2. login-form-2
+---------------------------------------*/
+
+
+.login-form-2 {
+	background: rgba(0,0,0,0.6);
+	border-radius: 8px;
+	color: #fff;
+	font-weight: 300;
+	max-width: 650px;
+	padding: 0 30px 30px 30px;
+	margin: 30px auto 0 auto;
+}
+
+.login-form-2 h1 { color: #fff; margin-bottom: 40px; }
+.login-form-2 a { color: #DBDBDB; }
+.login-form-2 .form-control {
+	background-color: rgba(83, 78, 78, 0.35);
+	border: 1px solid rgba(255, 255, 255, 0.27);
+	color: rgb(255,255,255);
+}
+.login-form-2 .input-icon-container .fa {	color: rgb(190, 190, 190); }
+.login-form-2 .control-label { margin-bottom: 10px; }
+.login-form-2 .btn {	width: 100%; }
+.login-form-2 .btn-social { max-width: 220px; }
+.login-form-2 label { font-weight: 400; }
+.login-form-2 .one-signin { border-right: 1px solid rgba(200, 200, 200, 0.5); }
+
+
+
+
+
+
+/*-------------------------------------
+7. contact-form-1
+---------------------------------------*/
+.contact-form-1 {
+	background: rgba(0,0,0,0.6);
+	border-radius: 8px;
+	color: rgb(197,197,197);
+	max-width: 600px;
+	margin: 30px auto 0 auto;
+	padding: 0 30px 30px 30px;
+}
+.contact-form-1 h1, .contact-form-1 p { color: rgb(255,255,255); }
+.contact-form-1 a {
+	color: #FF9;
+	text-decoration: underline;
+}
+.contact-form-1 a:hover { color: rgb(255,255,255); }
+.contact-form-1 label { font-weight: 400;}
+.contact-form-1 .form-control {
+	font-size: 16px;
+	padding: 10px 12px 10px 35px;
+}
+.contact-form-1 input.form-control {	height: 45px; }
+.contact-form-1 .fa { font-size: 20px; }
+.contact-form-1 .form-control {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(176, 176, 176, 0.4);
+	color: white;
+}
+.contact-form-1 .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(140, 220, 60, 0.7),0 0 10px rgba(140, 220, 60, 0.7);
+}
+.contact-form-1 .input-icon-container .fa {
+	color: rgb(197,197,197);
+	left: 12px;
+	top: 12px;
+}
+.contact-form-1 .input-icon-container .fa-envelope-o {
+	font-size: 18px;
+	top: 14px;
+}
+
+.contact-form-1 .btn {	width: 100%; }
+.contact-form-1 .btn-social { max-width: 220px; }
+
