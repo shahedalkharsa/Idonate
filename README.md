@@ -1,4 +1,4 @@
-# Idonate
+# Idonate Website
 The product is a website that consists of many kinds of organizations to donate for, it is beneficial for people who are confused or not sure where to donate for that certain kind of organization. It makes it easier for donors to donate from a set of categorized organizations. The vision of this website is to encourage working hand by hand to transform lives to the underprivileged, and to be the mediator between the donors and people in need. 
 
 Also, Idonate’s mission is to:
